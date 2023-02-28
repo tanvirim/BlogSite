@@ -1,35 +1,30 @@
 import Blogs from './body/blogs';
 import Nav from './navbar/navbar';
 import '../styles/home.css';
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const Home = () => {
-  const [blogs, setblogs] = useState([
-    {
-      id: 1,
-      title: 'First Blog Post',
-      body: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      author: 'John Doe'
-    },
-    {
-      id: 2,
-      title: 'Second Blog Post',
-      body: 'Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      author: 'Jane Smith'
-    },
-    {
-      id: 3,
-      title: 'Third Blog Post',
-      body: 'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
-      author: 'Bob Johnson'
-    }
-  ]);
+  const [apiData, setApiData] = useState([]);
+
+  useEffect(() => {
+    // fetch API data and update state
+    fetch('http://localhost:8080/api/posts')
+      .then(response => response.json())
+      .then(data => setApiData(data))
+      .catch(error => console.error(error));
+  }, []);
+
+  const handleDelete = id => {
+    const newBlogs = apiData.filter(blog => blog.id !== id);
+    setApiData(newBlogs);
+  };
+
   return (
     <div className='body'>
       <Nav />
-      <Blogs blogs={blogs} title='All blogs' />
+      <Blogs blogs={apiData} title='All blogs' handleDelete={handleDelete} />
       <Blogs
-        blogs={blogs.filter(e => e.author === 'John Doe')}
+        blogs={apiData.filter(e => e.author === 'John Doe')}
         title="John Doe's blogs"
       />
     </div>

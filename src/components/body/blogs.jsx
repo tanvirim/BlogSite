@@ -3,8 +3,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../../styles/blogs.css';
 const Blogs = props => {
   const blogs = props.blogs;
-  const title = props.title;
   console.log(blogs);
+  const title = props.title;
+  const handleDelete = props.handleDelete;
   return (
     <div className='Home'>
       <h1 style={{ fontSize: '20px' }}>{title}</h1>
@@ -14,7 +15,10 @@ const Blogs = props => {
             <h1>{blog.title}</h1>
             <p> {blog.body} </p>
           </div>
-          <button className='delete'> delete</button>
+
+          <button onClick={() => handleDelete(blog.id)} className='delete'>
+            delete
+          </button>
         </div>
       ))}
     </div>
