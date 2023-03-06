@@ -4,6 +4,10 @@
 
 }
 
+.blog-item a {
+  text-decoration: none;
+}
+
 
 .delete {
     height: 50px;

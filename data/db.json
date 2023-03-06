@@ -1,0 +1,34 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "author": "John Smith",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim aut, molestiae quidem eos, inventore pariatur, quam ducimus impedit aliquam odit placeat harum obcaecati facilis quis iure minus excepturi. Dolorem, fugit? Necessitatibus, porro. Dicta, et? Ipsam laboriosam possimus blanditiis officiis sunt. Iure voluptatem nihil, praesentium nobis temporibus quasi explicabo nostrum ducimus molestias? Fugit accusamus, molestiae voluptatem voluptatum illum fugiat? Aliquid, perspiciatis. Explicabo impedit atque iure eaque quisquam illo incidunt, nam eius accusamus, magni nulla eum laborum similique officiis, pariatur ducimus numquam corrupti velit. At ratione, voluptatum consequuntur aperiam numquam necessitatibus quisquam molestiae ex harum consectetur accusamus asperiores blanditiis recusandae in neque voluptate accusantium repudiandae assumenda reiciendis. Sit, minima animi quidem commodi quisquam quaerat labore nemo esse voluptatum dicta voluptas vitae praesentium voluptates cumque quam aliquid odio atque ab ipsum officiis nisi. Laborum provident labore possimus sint quae nemo doloremque tempore amet, impedit, sit ipsa soluta fugit nesciunt inventore atque architecto temporibus sunt unde quisquam aliquam eos! Minima consequatur aperiam inventore molestias aspernatur voluptas adipisci impedit, sint repellat praesentium asperiores officia nihil doloremque, eos laboriosam dolorem, ad perferendis! Dolorum, est? Animi sit illo asperiores cumque odio earum, soluta libero labore, laborum beatae est reiciendis eveniet fuga tempora at. Quos, obcaecati ratione!",
+      "title": "My First Blog Post"
+    },
+    {
+      "id": 2,
+      "author": "Jane Doe",
+      "content": "Sed do eiusmod tempor incididunt ut labore Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis enim aut, molestiae quidem eos, inventore pariatur, quam ducimus impedit aliquam odit placeat harum obcaecati facilis quis iure minus excepturi. Dolorem, fugit? Necessitatibus, porro. Dicta, et? Ipsam laboriosam possimus blanditiis officiis sunt. Iure voluptatem nihil, praesentium nobis temporibus quasi explicabo nostrum ducimus molestias? Fugit accusamus, molestiae voluptatem voluptatum illum fugiat? Aliquid, perspiciatis. Explicabo impedit atque iure eaque quisquam illo incidunt, nam eius accusamus, magni nulla eum laborum similique officiis, pariatur ducimus numquam corrupti velit. At ratione, voluptatum consequuntur aperiam numquam necessitatibus quisquam molestiae ex harum consectetur accusamus asperiores blanditiis recusandae in neque voluptate accusantium repudiandae assumenda reiciendis. Sit, minima animi quidem commodi quisquam quaerat labore nemo esse voluptatum dicta voluptas vitae praesentium voluptates cumque quam aliquid odio atque ab ipsum officiis nisi. Laborum provident labore possimus sint quae nemo doloremque tempore amet, impedit, sit ipsa soluta fugit nesciunt inventore atque architecto temporibus sunt unde quisquam aliquam eos! Minima consequatur aperiam inventore molestias aspernatur voluptas adipisci impedit, sint repellat praesentium asperiores officia nihil doloremque, eos laboriosam dolorem, ad perferendis! Dolorum, est? Animi sit illo asperiores cumque odio earum, soluta libero labore, laborum beatae est reiciendis eveniet fuga tempora at. Quos, obcaecati ratione!et dolore magna aliqua.",
+      "title": "Why I Love JSON Server"
+    },
+    {
+      "title": "coding journey",
+      "content": "this is just the beginning ",
+      "author": "Tanvir",
+      "id": 3
+    },
+    {
+      "title": "hello",
+      "content": "hey there",
+      "author": "John",
+      "id": 4
+    },
+    {
+      "title": "input title",
+      "content": "examinning",
+      "author": "John",
+      "id": 5
+    }
+  ]
+}
